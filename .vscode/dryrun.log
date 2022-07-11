@@ -1,0 +1,6 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/leonardolamoia/curso-c++/hangman-game'
+make: Leaving directory `/Users/leonardolamoia/curso-c++/hangman-game'
+ 
+make: *** No targets.  Stop.
+
