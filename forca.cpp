@@ -10,13 +10,6 @@ vector<char> chutes_errados;
 
 bool letra_existe(char chute)
 {
-    // for (int i = 0; i < PALAVRA_SECRETA.size(); i++)
-    // {
-    //     if (chute == PALAVRA_SECRETA[i])
-    //     {
-    //         return true;
-    //     }
-    // }
     for (char letra : PALAVRA_SECRETA)
     {
         if (chute == letra)
@@ -109,16 +102,16 @@ int main()
         imprime_palavra();
 
         chuta();
+    }
 
-        cout << "Fim de jogo!" << endl;
-        cout << "A palavra secreta era: " << PALAVRA_SECRETA << endl;
-        if (nao_acertou())
-        {
-            cout << "Você perdeu! Tente novamente!" << endl;
-        }
-        else
-        {
-            cout << "Parabéns! Voce acertou a palavra secreta!" << endl;
-        }
+    cout << "Fim de jogo!" << endl;
+    cout << "A palavra secreta era: " << PALAVRA_SECRETA << endl;
+    if (nao_acertou())
+    {
+        cout << "Você perdeu! Tente novamente!" << endl;
+    }
+    else
+    {
+        cout << "Parabéns! Você acertou a palavra secreta!" << endl;
     }
 }
