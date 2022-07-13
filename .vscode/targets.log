@@ -10,11 +10,10 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Fri Jul  8 22:55:03 2022
+# Make data base, printed on Tue Jul 12 16:55:35 2022
 
 # Variables
 
- 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
@@ -48,10 +47,11 @@ __CFBundleIdentifier = com.microsoft.VSCode
 # environment
 INFOPATH = /opt/homebrew/share/info:
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/6j/sd550l2x7xj92sgff0l4dr800000gn/T/vscode-ipc-0b6e7871-a400-4295-bf7a-c9a1a6f33118.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/6j/sd550l2x7xj92sgff0l4dr800000gn/T/vscode-ipc-acf0a46b-22a1-42a9-94d7-6cf80a00843a.sock
 # environment
 VSCODE_CWD = /
 # environment
+ 
 PATH = /Users/leonardolamoia/.nvm/versions/node/v16.15.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/leonardolamoia/flutter/bin:/Users/leonardolamoia/Android/Sdk/emulator:/Users/leonardolamoia/Android/Sdk/tools:/Users/leonardolamoia/Android/Sdk/tools/bin:/Users/leonardolamoia/Android/Sdk/platform-tools
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
@@ -59,6 +59,8 @@ LSCOLORS = Gxfxcxdxbxegedabagacad
 SPACESHIP_VERSION = 3.16.4
 # environment
 NVM_BIN = /Users/leonardolamoia/.nvm/versions/node/v16.15.0/bin
+# environment
+LaunchInstanceID = 4227BD29-1A8F-4FCC-AEAD-1D31E25FAFCA
 # environment
 VSCODE_LOG_STACK = false
 # environment
@@ -68,7 +70,7 @@ ANDROID_HOME = /Users/leonardolamoia/Android/Sdk
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.GAoLfgw0t5/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.LnllFFiS9k/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -162,6 +164,8 @@ PAGER = less
 # environment
 LC_ALL = C
 # environment
+SECURITYSESSIONID = 186b1
+# environment
 SPACESHIP_ROOT = /Users/leonardolamoia/.oh-my-zsh/custom/themes/spaceship-prompt
 # automatic
 ^F = $(notdir $^)
@@ -172,9 +176,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 12980
+VSCODE_PID = 589
 # variable set hash-table stats:
-# Load=79/1024=8%, Rehash=0, Collisions=1/101=1%
+# Load=81/1024=8%, Rehash=0, Collisions=1/103=1%
 
 # Pattern-specific Variable Values
 
@@ -182,9 +186,10 @@ VSCODE_PID = 12980
 
 # Directories
 
-# . (device 16777229, inode 58712810): 8 files, no impossibilities.
+ 
+# . (device 16777229, inode 58712810): 9 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 9 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -235,6 +240,6 @@ Makefile:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Fri Jul  8 22:55:03 2022
+# Finished Make data base on Tue Jul 12 16:55:35 2022
 
  
